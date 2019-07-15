@@ -1,0 +1,16 @@
+connection:
+        transport: tcp
+        host: "47.244.15.72"
+        port: 8888
+        req_timeout: 14
+        req_retries: 3
+user:
+        account: "ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA"
+        worker: "A001"
+miners:
+        - exec: "mean29-generic"
+          exec_group: "aecuckoo"
+          extra_args: ""
+          hex_enc_hdr: false
+          repeats: 100
+          edge_bits: 29

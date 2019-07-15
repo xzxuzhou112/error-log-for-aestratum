@@ -1,0 +1,54 @@
+2019-07-15 02:05:36 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.292.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:05:37 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.300.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:05:37 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.300.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:10:36 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.292.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:10:36 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.300.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:10:36 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.300.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:18:07 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.292.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:18:07 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.299.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2019-07-15 02:18:07 =SUPERVISOR REPORT====
+     Supervisor: {local,aestratum_client_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.299.0>},{id,aestratum_client_handler},{mfargs,{aestratum_client_handler,start_link,[#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => [],transport => tcp},miners_cfg => [#{edge_bits => 29,exec => <<"mean29-generic">>,exec_group => <<"aecuckoo">>,extra_args => <<>>,hex_enc_hdr => false,instances => undefined,repeats => 100}],user_cfg => #{account => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,password => null,worker => <<"A001">>}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

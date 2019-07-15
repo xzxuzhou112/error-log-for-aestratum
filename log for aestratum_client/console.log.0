@@ -1,0 +1,136 @@
+2019-07-14 18:20:38.171 [info] <0.33.0> Application lager started on node nonode@nohost
+2019-07-14 18:20:38.230 [info] <0.33.0> Application yamerl started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application jsx started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application rfc3339 started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application jesse started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application base58 started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application enacl started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application aecuckoo started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application aecuckooprebuilt started on node nonode@nohost
+2019-07-14 18:20:38.231 [info] <0.33.0> Application aeminer started on node nonode@nohost
+2019-07-14 18:20:38.232 [info] <0.33.0> Application aestratum_lib started on node nonode@nohost
+2019-07-14 18:20:38.235 [info] <0.359.0> Searching for config file aestratum_client.{json,yaml} in directory /home/carfield/aestratum_client-master
+2019-07-14 18:20:38.236 [info] <0.359.0> Reading config file /home/carfield/aestratum_client-master/aestratum_client.yaml
+2019-07-14 18:20:38.366 [info] <0.359.0> validation: "/home/carfield/aestratum_client-master/aestratum_client.yaml", result: [{ok,#{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 15,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}}]
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): '$user_config' = [{<<"connection">>,[{<<"host">>,<<"47.244.15.72">>},{<<"port">>,8888},{<<"req_retries">>,3},{<<"req_timeout">>,15},{<<"transport">>,<<"tcp">>}]},{<<"miners">>,[{<<"edge_bits">>,29},{<<"exec">>,<<"mean29-generic">>},{<<"exec_group">>,<<"aecuckoo">>},{<<"extra_args">>,<<>>},{<<"hex_enc_hdr">>,false},{<<"repeats">>,100}]},{<<"user">>,[{<<"account">>,<<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>},{<<"worker">>,<<"A001">>}]}]
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): '$user_map' = #{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 15,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): connection_host = <<"47.244.15.72">>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): connection_port = 8888
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): connection_req_retries = 3
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): connection_req_timeout = 15
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): connection_transport = <<"tcp">>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_edge_bits = 29
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_exec = <<"mean29-generic">>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_exec_group = <<"aecuckoo">>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_extra_args = <<>>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_hex_enc_hdr = false
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): miners_repeats = 100
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): user_account = <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>
+2019-07-14 18:20:38.367 [info] <0.359.0> Set config (aestratum_client): user_worker = <<"A001">>
+2019-07-14 18:20:38.575 [error] <0.361.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 15000,socket_opts => ...,...},...}) at <0.362.0> exit with reason normal in context child_terminated
+2019-07-14 18:20:38.575 [info] <0.33.0> Application aestratum_client started on node nonode@nohost
+2019-07-14 18:20:38.666 [error] <0.361.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 15000,socket_opts => ...,...},...}) at <0.369.0> exit with reason normal in context child_terminated
+2019-07-14 18:20:38.666 [error] <0.361.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 15000,socket_opts => ...,...},...}) at <0.369.0> exit with reason reached_max_restart_intensity in context shutdown
+2019-07-14 18:20:38.667 [info] <0.33.0> Application aestratum_client exited with reason: shutdown
+2019-07-14 18:44:09.398 [info] <0.33.0> Application lager started on node nonode@nohost
+2019-07-14 18:44:09.449 [info] <0.33.0> Application yamerl started on node nonode@nohost
+2019-07-14 18:44:09.450 [info] <0.33.0> Application jsx started on node nonode@nohost
+2019-07-14 18:44:09.450 [info] <0.33.0> Application rfc3339 started on node nonode@nohost
+2019-07-14 18:44:09.450 [info] <0.33.0> Application jesse started on node nonode@nohost
+2019-07-14 18:44:09.450 [info] <0.33.0> Application base58 started on node nonode@nohost
+2019-07-14 18:44:09.450 [info] <0.33.0> Application enacl started on node nonode@nohost
+2019-07-14 18:44:09.451 [info] <0.33.0> Application aecuckoo started on node nonode@nohost
+2019-07-14 18:44:09.451 [info] <0.33.0> Application aecuckooprebuilt started on node nonode@nohost
+2019-07-14 18:44:09.451 [info] <0.33.0> Application aeminer started on node nonode@nohost
+2019-07-14 18:44:09.451 [info] <0.33.0> Application aestratum_lib started on node nonode@nohost
+2019-07-14 18:44:09.456 [info] <0.347.0> Searching for config file aestratum_client.{json,yaml} in directory /home/carfield/aestratum_client-master
+2019-07-14 18:44:09.457 [info] <0.347.0> Reading config file /home/carfield/aestratum_client-master/aestratum_client.yaml
+2019-07-14 18:44:09.588 [info] <0.347.0> validation: "/home/carfield/aestratum_client-master/aestratum_client.yaml", result: [{ok,#{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}}]
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): '$user_config' = [{<<"connection">>,[{<<"host">>,<<"47.244.15.72">>},{<<"port">>,8888},{<<"req_retries">>,3},{<<"req_timeout">>,14},{<<"transport">>,<<"tcp">>}]},{<<"miners">>,[{<<"edge_bits">>,29},{<<"exec">>,<<"mean29-generic">>},{<<"exec_group">>,<<"aecuckoo">>},{<<"extra_args">>,<<>>},{<<"hex_enc_hdr">>,false},{<<"repeats">>,100}]},{<<"user">>,[{<<"account">>,<<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>},{<<"worker">>,<<"A001">>}]}]
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): '$user_map' = #{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): connection_host = <<"47.244.15.72">>
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): connection_port = 8888
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): connection_req_retries = 3
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): connection_req_timeout = 14
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): connection_transport = <<"tcp">>
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): miners_edge_bits = 29
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): miners_exec = <<"mean29-generic">>
+2019-07-14 18:44:09.588 [info] <0.347.0> Set config (aestratum_client): miners_exec_group = <<"aecuckoo">>
+2019-07-14 18:44:09.589 [info] <0.347.0> Set config (aestratum_client): miners_extra_args = <<>>
+2019-07-14 18:44:09.589 [info] <0.347.0> Set config (aestratum_client): miners_hex_enc_hdr = false
+2019-07-14 18:44:09.589 [info] <0.347.0> Set config (aestratum_client): miners_repeats = 100
+2019-07-14 18:44:09.589 [info] <0.347.0> Set config (aestratum_client): user_account = <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>
+2019-07-14 18:44:09.589 [info] <0.347.0> Set config (aestratum_client): user_worker = <<"A001">>
+2019-07-14 18:44:09.778 [error] <0.349.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.350.0> exit with reason normal in context child_terminated
+2019-07-14 18:44:09.778 [info] <0.33.0> Application aestratum_client started on node nonode@nohost
+2019-07-14 18:44:09.868 [error] <0.349.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.357.0> exit with reason normal in context child_terminated
+2019-07-14 18:44:09.868 [error] <0.349.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.357.0> exit with reason reached_max_restart_intensity in context shutdown
+2019-07-14 18:44:09.869 [info] <0.33.0> Application aestratum_client exited with reason: shutdown
+2019-07-14 18:56:51.805 [info] <0.33.0> Application lager started on node nonode@nohost
+2019-07-14 18:56:51.858 [info] <0.33.0> Application yamerl started on node nonode@nohost
+2019-07-14 18:56:51.859 [info] <0.33.0> Application jsx started on node nonode@nohost
+2019-07-14 18:56:51.859 [info] <0.33.0> Application rfc3339 started on node nonode@nohost
+2019-07-14 18:56:51.859 [info] <0.33.0> Application jesse started on node nonode@nohost
+2019-07-14 18:56:51.859 [info] <0.33.0> Application base58 started on node nonode@nohost
+2019-07-14 18:56:51.859 [info] <0.33.0> Application enacl started on node nonode@nohost
+2019-07-14 18:56:51.860 [info] <0.33.0> Application aecuckoo started on node nonode@nohost
+2019-07-14 18:56:51.860 [info] <0.33.0> Application aecuckooprebuilt started on node nonode@nohost
+2019-07-14 18:56:51.860 [info] <0.33.0> Application aeminer started on node nonode@nohost
+2019-07-14 18:56:51.860 [info] <0.33.0> Application aestratum_lib started on node nonode@nohost
+2019-07-14 18:56:51.865 [info] <0.289.0> Searching for config file aestratum_client.{json,yaml} in directory /home/carfield/aestratum_client-master
+2019-07-14 18:56:51.865 [info] <0.289.0> Reading config file /home/carfield/aestratum_client-master/aestratum_client.yaml
+2019-07-14 18:56:51.989 [info] <0.289.0> validation: "/home/carfield/aestratum_client-master/aestratum_client.yaml", result: [{ok,#{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}}]
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): '$user_config' = [{<<"connection">>,[{<<"host">>,<<"47.244.15.72">>},{<<"port">>,8888},{<<"req_retries">>,3},{<<"req_timeout">>,14},{<<"transport">>,<<"tcp">>}]},{<<"miners">>,[{<<"edge_bits">>,29},{<<"exec">>,<<"mean29-generic">>},{<<"exec_group">>,<<"aecuckoo">>},{<<"extra_args">>,<<>>},{<<"hex_enc_hdr">>,false},{<<"repeats">>,100}]},{<<"user">>,[{<<"account">>,<<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>},{<<"worker">>,<<"A001">>}]}]
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): '$user_map' = #{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): connection_host = <<"47.244.15.72">>
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): connection_port = 8888
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): connection_req_retries = 3
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): connection_req_timeout = 14
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): connection_transport = <<"tcp">>
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_edge_bits = 29
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_exec = <<"mean29-generic">>
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_exec_group = <<"aecuckoo">>
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_extra_args = <<>>
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_hex_enc_hdr = false
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): miners_repeats = 100
+2019-07-14 18:56:51.989 [info] <0.289.0> Set config (aestratum_client): user_account = <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>
+2019-07-14 18:56:51.990 [info] <0.289.0> Set config (aestratum_client): user_worker = <<"A001">>
+2019-07-14 18:56:52.163 [info] <0.33.0> Application aestratum_client started on node nonode@nohost
+2019-07-14 18:56:52.167 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.292.0> exit with reason normal in context child_terminated
+2019-07-14 18:56:52.255 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.300.0> exit with reason normal in context child_terminated
+2019-07-14 18:56:52.255 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.300.0> exit with reason reached_max_restart_intensity in context shutdown
+2019-07-14 18:56:52.256 [info] <0.33.0> Application aestratum_client exited with reason: shutdown
+2019-07-14 20:39:20.049 [info] <0.33.0> Application lager started on node nonode@nohost
+2019-07-14 20:39:20.107 [info] <0.33.0> Application yamerl started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application jsx started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application rfc3339 started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application jesse started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application base58 started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application enacl started on node nonode@nohost
+2019-07-14 20:39:20.108 [info] <0.33.0> Application aecuckoo started on node nonode@nohost
+2019-07-14 20:39:20.109 [info] <0.33.0> Application aecuckooprebuilt started on node nonode@nohost
+2019-07-14 20:39:20.109 [info] <0.33.0> Application aeminer started on node nonode@nohost
+2019-07-14 20:39:20.109 [info] <0.33.0> Application aestratum_lib started on node nonode@nohost
+2019-07-14 20:39:20.114 [info] <0.289.0> Searching for config file aestratum_client.{json,yaml} in directory /home/carfield/aestratum_client-master
+2019-07-14 20:39:20.114 [info] <0.289.0> Reading config file /home/carfield/aestratum_client-master/aestratum_client.yaml
+2019-07-14 20:39:20.252 [info] <0.289.0> validation: "/home/carfield/aestratum_client-master/aestratum_client.yaml", result: [{ok,#{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}}]
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): '$user_config' = [{<<"connection">>,[{<<"host">>,<<"47.244.15.72">>},{<<"port">>,8888},{<<"req_retries">>,3},{<<"req_timeout">>,14},{<<"transport">>,<<"tcp">>}]},{<<"miners">>,[{<<"edge_bits">>,29},{<<"exec">>,<<"mean29-generic">>},{<<"exec_group">>,<<"aecuckoo">>},{<<"extra_args">>,<<>>},{<<"hex_enc_hdr">>,false},{<<"repeats">>,100}]},{<<"user">>,[{<<"account">>,<<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>},{<<"worker">>,<<"A001">>}]}]
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): '$user_map' = #{<<"connection">> => #{<<"host">> => <<"47.244.15.72">>,<<"port">> => 8888,<<"req_retries">> => 3,<<"req_timeout">> => 14,<<"transport">> => <<"tcp">>},<<"miners">> => [#{<<"edge_bits">> => 29,<<"exec">> => <<"mean29-generic">>,<<"exec_group">> => <<"aecuckoo">>,<<"extra_args">> => <<>>,<<"hex_enc_hdr">> => false,<<"repeats">> => 100}],<<"user">> => #{<<"account">> => <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>,<<"worker">> => <<"A001">>}}
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): connection_host = <<"47.244.15.72">>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): connection_port = 8888
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): connection_req_retries = 3
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): connection_req_timeout = 14
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): connection_transport = <<"tcp">>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_edge_bits = 29
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_exec = <<"mean29-generic">>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_exec_group = <<"aecuckoo">>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_extra_args = <<>>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_hex_enc_hdr = false
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): miners_repeats = 100
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): user_account = <<"ak_2uFg2xwmmYQJZPVc9D5YQ7h7PScZhJgH5QHexoDGmkLVjNJNuA">>
+2019-07-14 20:39:20.252 [info] <0.289.0> Set config (aestratum_client): user_worker = <<"A001">>
+2019-07-14 20:39:20.426 [info] <0.33.0> Application aestratum_client started on node nonode@nohost
+2019-07-14 20:39:20.426 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.292.0> exit with reason normal in context child_terminated
+2019-07-14 20:39:20.519 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.299.0> exit with reason normal in context child_terminated
+2019-07-14 20:39:20.519 [error] <0.291.0> Supervisor aestratum_client_sup had child aestratum_client_handler started with aestratum_client_handler:start_link(#{conn_cfg => #{host => <<"47.244.15.72">>,port => 8888,req_retries => 3,req_timeout => 14000,socket_opts => ...,...},...}) at <0.299.0> exit with reason reached_max_restart_intensity in context shutdown
+2019-07-14 20:39:20.520 [info] <0.33.0> Application aestratum_client exited with reason: shutdown

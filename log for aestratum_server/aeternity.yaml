@@ -1,0 +1,21 @@
+stratum:
+    enabled: true
+    connection:
+        port: 8888
+        max_connections: 4096
+        num_acceptors: 100
+    session:
+        extra_nonce_bytes: 4
+        initial_share_target: 115790322390251417039241401711187164934754157181743688420499462401711837019160
+        max_share_target: 115790322390251417039241401711187164934754157181743688420499462401711837020160
+        desired_solve_time: 30
+        max_solve_time: 60
+        share_target_diff_threshold: 5.0
+        max_jobs: 20
+        msg_timeout: 15
+    reward:
+        reward_last_rounds: 2  # how many mining epochs to reward
+        beneficiaries: ["ak_2hJJGh3eJA2v9yLz73To7P8LvoHdz3arku3WXvgbCfwQyaL4nK:3.3",
+                        "ak_241xf1kQiexbSvWKfn5uve7ugGASjME93zDbr6SGQzYSCMTeQS:2.2"]
+        keys:
+                dir: stratum_keys

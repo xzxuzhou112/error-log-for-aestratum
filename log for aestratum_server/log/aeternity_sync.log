@@ -1,0 +1,82 @@
+2019-07-15 18:35:59.886 [debug] <0.1494.0>@aec_peers:on_ping_timeout:1104 Peer "pp_28si4QQ...7EVHFH9" - schedule ping
+2019-07-15 18:36:00.085 [debug] <0.1564.0>@aec_peer_connection:handle_ping_msg:679 Same top blocks
+2019-07-15 18:36:00.086 [debug] <0.19521.8>@aec_sync:ping_peer:565 Ping ("pp_28si4QQ...7EVHFH9"): ok
+2019-07-15 18:36:00.086 [debug] <0.1494.0>@aec_peers:conn_schedule_ping:1500 Peer "pp_28si4QQ...7EVHFH9" - wait 120000 ms for next ping
+2019-07-15 18:36:00.087 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_WeoGHpj...AFfWgXd" - peer added to unverified pool
+2019-07-15 18:36:00.087 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_WeoGHpj...AFfWgXd" - adding peer 60.173.2.89:3015 given by 34.218.57.207
+2019-07-15 18:36:00.087 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2299vpy...ASzQZPy" - peer added to unverified pool
+2019-07-15 18:36:00.099 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2299vpy...ASzQZPy" - adding peer 121.196.207.71:3015 given by 34.218.57.207
+2019-07-15 18:36:00.099 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_CgNXxYW...eJcUHWy" - peer added to unverified pool
+2019-07-15 18:36:00.100 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_CgNXxYW...eJcUHWy" - adding peer 36.33.32.251:3015 given by 34.218.57.207
+2019-07-15 18:36:00.100 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_xPiTXmG...nWNKt7w" - peer added to unverified pool
+2019-07-15 18:36:00.100 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_xPiTXmG...nWNKt7w" - adding peer 36.33.32.251:3015 given by 34.218.57.207
+2019-07-15 18:36:00.101 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_fpSZ7oU...9ay9TN4" - peer added to unverified pool
+2019-07-15 18:36:00.101 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_fpSZ7oU...9ay9TN4" - adding peer 117.57.57.25:3015 given by 34.218.57.207
+2019-07-15 18:36:00.101 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_UtQGukh...gmoUUXY" - peer added to unverified pool
+2019-07-15 18:36:00.102 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_UtQGukh...gmoUUXY" - adding peer 117.57.57.25:3015 given by 34.218.57.207
+2019-07-15 18:36:00.102 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_Kj9i21w...x55zuJE" - peer added to unverified pool
+2019-07-15 18:36:00.102 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_Kj9i21w...x55zuJE" - adding peer 18.208.139.21:3015 given by 34.218.57.207
+2019-07-15 18:36:00.102 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_i8HsNga...XnyJhpH" - peer added to unverified pool
+2019-07-15 18:36:00.103 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_i8HsNga...XnyJhpH" - adding peer 18.208.139.21:3015 given by 34.218.57.207
+2019-07-15 18:36:00.103 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2tWMttq...v3DZH9n" - peer added to unverified pool
+2019-07-15 18:36:00.103 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2tWMttq...v3DZH9n" - adding peer 18.208.139.21:3015 given by 34.218.57.207
+2019-07-15 18:36:00.103 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2fCJjVx...L3wXKsG" - peer added to unverified pool
+2019-07-15 18:36:00.103 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2fCJjVx...L3wXKsG" - adding peer 117.57.59.246:3015 given by 34.218.57.207
+2019-07-15 18:36:00.104 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2bMsn3b...ZG1s78R" - peer added to unverified pool
+2019-07-15 18:36:00.104 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2bMsn3b...ZG1s78R" - adding peer 117.57.59.246:3015 given by 34.218.57.207
+2019-07-15 18:36:00.104 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2Qcjdai...r7VPsAn" - peer added to unverified pool
+2019-07-15 18:36:00.104 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2Qcjdai...r7VPsAn" - adding peer 195.201.172.78:3015 given by 34.218.57.207
+2019-07-15 18:36:20.291 [debug] <0.1494.0>@aec_peers:on_ping_timeout:1104 Peer "pp_tVdaaX4...G1A4gBN" - schedule ping
+2019-07-15 18:36:20.309 [debug] <0.1494.0>@aec_peers:on_ping_timeout:1104 Peer "pp_H4ooofy...ssvtUEZ" - schedule ping
+2019-07-15 18:36:20.529 [debug] <0.1560.0>@aec_peer_connection:handle_ping_msg:679 Same top blocks
+2019-07-15 18:36:20.529 [debug] <0.19572.8>@aec_sync:ping_peer:565 Ping ("pp_tVdaaX4...G1A4gBN"): ok
+2019-07-15 18:36:20.529 [debug] <0.1494.0>@aec_peers:conn_schedule_ping:1500 Peer "pp_tVdaaX4...G1A4gBN" - wait 120000 ms for next ping
+2019-07-15 18:36:20.530 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_ER8nFeM...jZjNJbk" - peer added to unverified pool
+2019-07-15 18:36:20.531 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_ER8nFeM...jZjNJbk" - adding peer 60.173.2.89:3015 given by 3.16.242.93
+2019-07-15 18:36:20.531 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_hLfcUWB...BRsAgEw" - peer added to unverified pool
+2019-07-15 18:36:20.531 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_hLfcUWB...BRsAgEw" - adding peer 60.173.2.89:3015 given by 3.16.242.93
+2019-07-15 18:36:20.531 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2ehjR38...BVKfVue" - peer added to unverified pool
+2019-07-15 18:36:20.531 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2ehjR38...BVKfVue" - adding peer 60.173.2.89:3015 given by 3.16.242.93
+2019-07-15 18:36:20.532 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2YZevxr...kwxQLho" - peer added to unverified pool
+2019-07-15 18:36:20.532 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2YZevxr...kwxQLho" - adding peer 195.201.172.78:3015 given by 3.16.242.93
+2019-07-15 18:36:20.533 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_iLXe4Md...ZKBhSW8" - peer added to unverified pool
+2019-07-15 18:36:20.542 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_iLXe4Md...ZKBhSW8" - adding peer 36.33.32.251:3015 given by 3.16.242.93
+2019-07-15 18:36:20.542 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2P3bn4u...7ANQfxU" - peer added to unverified pool
+2019-07-15 18:36:20.543 [debug] <0.1568.0>@aec_peer_connection:handle_ping_msg:679 Same top blocks
+2019-07-15 18:36:20.543 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2P3bn4u...7ANQfxU" - adding peer 114.97.138.164:3015 given by 3.16.242.93
+2019-07-15 18:36:20.543 [debug] <0.19575.8>@aec_sync:ping_peer:565 Ping ("pp_H4ooofy...ssvtUEZ"): ok
+2019-07-15 18:36:20.545 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_cXJ2uuS...vLUyDXt" - peer added to unverified pool
+2019-07-15 18:36:20.545 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_cXJ2uuS...vLUyDXt" - adding peer 10.255.0.2:3015 given by 3.16.242.93
+2019-07-15 18:36:20.545 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_25PUMwa...ZqKhC9C" - peer added to unverified pool
+2019-07-15 18:36:20.545 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_25PUMwa...ZqKhC9C" - adding peer 18.130.66.5:3015 given by 3.16.242.93
+2019-07-15 18:36:20.546 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_mKp2sfd...JPQLK56" - peer added to unverified pool
+2019-07-15 18:36:20.546 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_mKp2sfd...JPQLK56" - adding peer 185.103.237.196:3015 given by 3.16.242.93
+2019-07-15 18:36:20.546 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_YgDUX8m...mbWJSS4" - peer added to unverified pool
+2019-07-15 18:36:20.546 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_YgDUX8m...mbWJSS4" - adding peer 117.57.57.25:3015 given by 3.16.242.93
+2019-07-15 18:36:20.547 [debug] <0.1494.0>@aec_peers:conn_schedule_ping:1500 Peer "pp_H4ooofy...ssvtUEZ" - wait 120000 ms for next ping
+2019-07-15 18:36:20.547 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2v4DVtv...Q5DdA89" - peer added to unverified pool
+2019-07-15 18:36:20.547 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2v4DVtv...Q5DdA89" - adding peer 18.208.139.21:3015 given by 18.217.69.24
+2019-07-15 18:36:20.547 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2JCars5...D9qFCfe" - peer added to unverified pool
+2019-07-15 18:36:20.548 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2JCars5...D9qFCfe" - adding peer 60.173.2.89:3015 given by 18.217.69.24
+2019-07-15 18:36:20.548 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2AAqRcX...mNCDmb3" - peer added to unverified pool
+2019-07-15 18:36:20.548 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2AAqRcX...mNCDmb3" - adding peer 117.57.59.246:3015 given by 18.217.69.24
+2019-07-15 18:36:20.548 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_zjD3VuF...1uCoLYn" - peer added to unverified pool
+2019-07-15 18:36:20.548 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_zjD3VuF...1uCoLYn" - adding peer 18.208.139.21:3015 given by 18.217.69.24
+2019-07-15 18:36:20.549 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_yyfRRFr...R3rQcDW" - peer added to unverified pool
+2019-07-15 18:36:20.549 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_yyfRRFr...R3rQcDW" - adding peer 60.173.2.89:3015 given by 18.217.69.24
+2019-07-15 18:36:20.556 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2G18XqB...3dVw69b" - peer added to unverified pool
+2019-07-15 18:36:20.556 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2G18XqB...3dVw69b" - adding peer 60.173.2.89:3015 given by 18.217.69.24
+2019-07-15 18:36:20.556 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_28SoHkD...XVvttFY" - peer added to unverified pool
+2019-07-15 18:36:20.556 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_28SoHkD...XVvttFY" - adding peer 60.173.2.89:3015 given by 18.217.69.24
+2019-07-15 18:36:20.557 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2nxe8wh...QVW567L" - peer added to unverified pool
+2019-07-15 18:36:20.557 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2nxe8wh...QVW567L" - adding peer 195.201.172.78:3015 given by 18.217.69.24
+2019-07-15 18:36:20.557 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_KYZTuzp...T5bnVnk" - peer added to unverified pool
+2019-07-15 18:36:20.557 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_KYZTuzp...T5bnVnk" - adding peer 125.82.184.174:3015 given by 18.217.69.24
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_WsuPtgk...C4BhMDX" - peer added to unverified pool
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_WsuPtgk...C4BhMDX" - adding peer 34.229.57.188:3015 given by 18.217.69.24
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_vM3NY2k...BHducxW" - peer added to unverified pool
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_vM3NY2k...BHducxW" - adding peer 34.229.57.188:3015 given by 18.217.69.24
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_2fFKzg7...fEpj1fo" - peer added to unverified pool
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_2fFKzg7...fEpj1fo" - adding peer 66.42.114.150:3015 given by 18.217.69.24
+2019-07-15 18:36:20.558 [debug] <0.1494.0>@aec_peers:pool_log_changes:1187 Peer "pp_fKtB4tp...s2U8gQS" - peer added to unverified pool
+2019-07-15 18:36:20.559 [debug] <0.1494.0>@aec_peers:add_peer:1077 Peer "pp_fKtB4tp...s2U8gQS" - adding peer 117.57.57.25:3015 given by 18.217.69.24
